@@ -3,7 +3,7 @@ import {CreateUserDto} from './dto/create-user.dto';
 import {UpdateUserDto} from './dto/update-user.dto';
 import {CustomPrismaService} from 'nestjs-prisma';
 import {ExtendedPrismaClient} from '../../prisma.extension';
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import {User} from "./entities/user.entity";
 
 @Injectable()
